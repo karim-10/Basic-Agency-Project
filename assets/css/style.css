@@ -749,7 +749,7 @@ header nav>img {
     grid-template-columns: repeat(3,1fr);
     padding-top:  20px ;
     padding-bottom: 50px;
-    border-bottom: 2px solid #f9cdcd;
+    /* border-bottom: 2px solid #f9cdcd; */
     margin: 0 5%;
 }
 .awards>p{
@@ -777,4 +777,39 @@ header nav>img {
 .while>a:hover{
     color: #252422;
     background-color: #f9cdcd;
+}
+/* (sectionAbout 8) after sectionAbout7 --> */ 
+/* (sectionAbout 8) after sectionAbout7 --> */ 
+.sectionAbout8{
+    padding: 0 5%;
+    
+}
+.webbyAwards div {
+    display: flex;
+    align-items: baseline;
+    margin: 0 0;
+    padding: 0 0 ;
+    /* opacity: 0.5; */
+}
+/* .webbyAwards div h1,p{
+    opacity: 0.5;
+} */
+
+.webbyAwards h1{
+    font-size: 4.5em;
+}
+.webbyAwards p{
+    font-size: 1.5em;
+    font-family: regular;
+}
+.webbyAwards .hover-1>img{
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    margin-top: -11%;
+    display: block;
+   
+}
+.webbyAwards div:nth-of-type(1):hover{
+    
 }
